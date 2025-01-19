@@ -3,13 +3,13 @@ import React from 'react'
 import { useLocalSearchParams } from 'expo-router'
 
 const Property = () => {
-    const { id } = useLocalSearchParams();
+  const { id } = useLocalSearchParams()
 
-    return (
-        <View>
-            <Text>{id}</Text>
-        </View>
-    )
+  return (
+    <View>
+      <Text>{id}</Text>
+    </View>
+  )
 }
 
 export default Property
